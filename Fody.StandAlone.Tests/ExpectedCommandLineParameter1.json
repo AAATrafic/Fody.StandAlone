@@ -1,0 +1,5 @@
+﻿{
+  "FodyWeaverConfigPath": "c:\\users\\laurent\\documents\\visual studio 2017\\Projects\\Thirdparty.Wrapper\\FodyWeavers.xml",
+  "TargetAssembly": "c:\\users\\laurent\\documents\\visual studio 2017\\Projects\\Thirdparty.Wrapper\\bin\\Debug\\AssemblyToInstrument.dll",
+  "References": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.5.2\\System.dll"
+}

@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Fody.StandAlone/bin/Debug
+/Fody.StandAlone/obj/Debug
+/Fody.StandAlone.Tests/bin/Debug
+/Fody.StandAlone.Tests/obj/Debug
+/Fody.StandAlone/packages

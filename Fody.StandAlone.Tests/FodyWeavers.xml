@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Weavers>
+  <ToString />
+  <Tracer adapterAssembly="Tracer.NLog" logManager="Tracer.NLog.Adapters.LogManagerAdapter" logger="Tracer.NLog.Adapters.LoggerAdapter" staticLogger="Tracer.NLog.Log" traceConstructors="false" traceProperties="true">
+    <TraceOn class="public" method="public" />
+  </Tracer>
+</Weavers>
