@@ -3,9 +3,10 @@
   <metadata>
     <!-- Required elements-->
     <id>Fody.StandAlone</id>
-    <version>1.0.0.1</version>
+    <version>1.0.1.0</version>
     <description>Fody.StandAlone</description>
     <authors>Marcello Faga, Laurent Nguyen</authors>
+    <projectUrl>https://github.com/AAATrafic/Fody.StandAlone</projectUrl>
 
     <!-- Optional elements -->
     <!-- ... -->
