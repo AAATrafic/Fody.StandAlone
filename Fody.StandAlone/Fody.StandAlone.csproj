@@ -38,10 +38,10 @@
       <HintPath>packages\CommandLineParser.1.9.71\lib\net45\CommandLine.dll</HintPath>
     </Reference>
     <Reference Include="FodyCommon">
-      <HintPath>..\Project1\packages\Fody.1.29.4\FodyCommon.dll</HintPath>
+      <HintPath>packages\Fody.1.29.4\FodyCommon.dll</HintPath>
     </Reference>
     <Reference Include="FodyIsolated">
-      <HintPath>..\Project1\packages\Fody.1.29.4\FodyIsolated.dll</HintPath>
+      <HintPath>packages\Fody.1.29.4\FodyIsolated.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
