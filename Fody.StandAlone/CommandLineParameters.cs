@@ -47,10 +47,5 @@ namespace Fody.StandAlone
 
             return help;
         }
-
-        private static string GetRequiredOrMandatoryLabel(bool required)
-        {
-            return required ? "Required" : "Mandatory";
-        }
     }
 }
