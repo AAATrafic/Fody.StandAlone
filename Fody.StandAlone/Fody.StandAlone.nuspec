@@ -12,8 +12,8 @@
   </metadata>
   <!-- Optional 'files' node -->
   <files>
-    <file src="bin\$configuration$\*.pdb" target="lib\net40\" />
-    <file src="bin\$configuration$\*.dll" target="lib\net40\" />
-    <file src="bin\$configuration$\*.exe" target="lib\net40\" />
+    <file src="bin\$configuration$\*.pdb" target="tools" />
+    <file src="bin\$configuration$\*.dll" target="tools" />
+    <file src="bin\$configuration$\*.exe" target="tools" />
   </files>
 </package>
