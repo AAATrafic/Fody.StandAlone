@@ -3,7 +3,7 @@
   <metadata>
     <!-- Required elements-->
     <id>Fody.StandAlone</id>
-    <version>1.0.0.0</version>
+    <version>1.0.0.1</version>
     <description>Fody.StandAlone</description>
     <authors>Marcello Faga, Laurent Nguyen</authors>
 
