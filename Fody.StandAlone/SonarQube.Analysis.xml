@@ -23,16 +23,10 @@
   <Property Name="sonar.password"></Property>
   -->
 
-  <!-- Required only for versions of SonarQube prior to 5.2 -->
-  <!--
-  <Property Name="sonar.jdbc.url">jdbc:jtds:sqlserver://mySqlServer/sonar;instance=SQLEXPRESS;SelectMethod=Cursor</Property>
-  <Property Name="sonar.jdbc.username">sonar</Property>
-  <Property Name="sonar.jdbc.password">sonar</Property>
-  -->
-  <Property Name="sonar.exclusions">*.pdb,*.dll</Property>
-  <Property Name="sonar.issue.ignore.allfile">*.pdb,*.dll</Property>
-  <Property Name="sonar.coverage.exclusions">*.pdb,*.dll</Property>
+  <!--<Property Name="sonar.exclusions">*.pdb,*.dll,*.xml</Property>
+  <Property Name="sonar.issue.ignore.allfile">*.pdb,*.dll,*.xml</Property>
+  <Property Name="sonar.coverage.exclusions">*.pdb,*.dll,*.xml</Property>
   <Property Name="sonar.log.level">TRACE</Property>
-  <Property Name="sonar.test.inclusions">Test.cs</Property>
+  <Property Name="sonar.test.inclusions">Test.cs</Property>-->
 
 </SonarQubeAnalysisProperties>
