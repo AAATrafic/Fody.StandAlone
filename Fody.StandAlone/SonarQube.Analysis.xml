@@ -27,7 +27,8 @@
   <Property Name="sonar.coverage.exclusions">*.pdb,*.dll,*.xml</Property>
   <Property Name="sonar.cpd.exclusions">*.pdb,*.dll,*.xml</Property>
   <Property Name="sonar.test.exclusions">*.pdb,*.dll,*.xml</Property>
-  
+  <Property Name="sonar.log.level">DEBUG</Property>
+
 
   <!--<Property Name="sonar.issue.ignore.allfile">*.pdb,*.dll,*.xml</Property>
     <Property Name="sonar.log.level">TRACE</Property>
