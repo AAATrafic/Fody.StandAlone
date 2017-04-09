@@ -71,7 +71,9 @@
     <Content Include="AssemblyToInstrument.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="AssemblyToInstrument.pdb" />
+    <Content Include="AssemblyToInstrument.pdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="NLog.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
