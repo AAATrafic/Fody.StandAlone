@@ -33,5 +33,6 @@
   <Property Name="sonar.issue.ignore.allfile">*.pdb,*.dll</Property>
   <Property Name="sonar.coverage.exclusions">*.pdb,*.dll</Property>
   <Property Name="sonar.log.level">DEBUG</Property>
+  <Property Name="sonar.test.inclusions">Test.cs</Property>
 
 </SonarQubeAnalysisProperties>
