@@ -28,6 +28,8 @@
   <Property Name="sonar.cpd.exclusions">*.pdb,*.dll,*.xml</Property>
   <Property Name="sonar.test.exclusions">*.pdb,*.dll,*.xml</Property>
   <Property Name="sonar.log.level">DEBUG</Property>
+  <Property Name="sonar.sourceEncoding=">UTF-8</Property>
+  
 
 
   <!--<Property Name="sonar.issue.ignore.allfile">*.pdb,*.dll,*.xml</Property>
