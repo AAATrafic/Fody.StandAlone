@@ -3,6 +3,7 @@
   <metadata>
     <!-- Required elements-->
     <id>Fody.StandAlone</id>
+    <version>1.0.0.0</version>
     <description>Tool to IL weave .Net dlls without compiling them</description>
     <authors>Marcello Faga, Laurent Nguyen</authors>
     <projectUrl>https://github.com/AAATrafic/Fody.StandAlone</projectUrl>
