@@ -9,3 +9,4 @@
 /Fody.StandAlone/packages
 /Thirdparty.Wrapper/bin/Debug
 /Thirdparty.Wrapper/obj/Debug
+*.suo

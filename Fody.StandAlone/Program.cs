@@ -9,26 +9,30 @@ namespace Fody.StandAlone
     {
         public static void Main(string[] args)
         {
+            MainImpl(args);
+        }
+
+        private static void MainImpl(string[] args)
+        {
             if (args.Length > 0)
             {
                 if (args[0] == "help")
                 {
                     Console.WriteLine(new CommandLineParameters().GetUsage());
+                    return;
                 }
             }
-            else
+
+            try
             {
-                try
-                {
-                    var commandLineParameters = GetCommandLineParameters(args);
-                    var weavingParameters = GetWeavingParameters(commandLineParameters);
-                    new InnerWeaverWrapper(commandLineParameters.TargetAssembly).Weave(weavingParameters);
-                }
-                catch (WrongCommandLineParametersException e)
-                {
-                    Console.WriteLine(e.Usage);
-                    throw;
-                }
+                var commandLineParameters = GetCommandLineParameters(args);
+                var weavingParameters = GetWeavingParameters(commandLineParameters);
+                new InnerWeaverWrapper(commandLineParameters.TargetAssembly).Weave(weavingParameters);
+            }
+            catch (WrongCommandLineParametersException e)
+            {
+                Console.WriteLine(e.Usage);
+                throw;
             }
         }
 
